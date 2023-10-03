@@ -69,14 +69,7 @@ class Calc {
 
   static init = () => {
     this.#load()
-    //  this.#output()
-    /*index.js:17 Uncaught TypeError: Cannot set properties of undefined (setting 'innerHTML')
-    at #output (index.js:17:29)
-    at Calc.init (index.js:55:17)
-    at eval (index.js:59:6)
-    at ./src/container/calc/index.js (index.js:18:1)
-    at index.js:29:63
-    at index.js:31:12 */
+    this.#output()
     console.log('Calc is init')
   }
 }
